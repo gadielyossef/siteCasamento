@@ -83,14 +83,16 @@ li {
 }
 
 .balao-pix img {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
 
 
 .balao-pix span{
     margin-top: 0.8rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 80%;
 }
 
 .balao-pix p{
@@ -143,6 +145,13 @@ li {
         width: 200px;
         height: 200px;
     }
+    
+    .balao-pix span{
+    margin-top: 0.8rem;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 80%;
+}
     
 }
 
@@ -203,7 +212,9 @@ li {
 
     .balao-pix span{
         margin-top: 0.8rem;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        text-align: center;
+        width: 80%;
     }
 
 }
