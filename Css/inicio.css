@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #faf4ef;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    list-style: none;
+}
+
+a {
+    color: rgb(107, 107, 107);
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-left: 4rem;
+
+
+}
+
+.titulo-principal {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    width: 40%;
+}
+
+h1 {
+    font-size: min(9vw, 7rem);
+    color: rgb(108, 83, 64);
+    line-height: 5rem;
+}
+
+.titulo-principal b {
+    font-size: min(4vw,3rem);
+}
+
+.titulo-principal h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 11px;
+    color: #4a392c;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+}
+picture{
+    width: 50%;
+ 
+}
+picture img {
+    width: 100%;
+    box-shadow: -7px 2px 24px -4px rgb(108, 83, 64, 0.23);
+    
+}
+
+@media (max-width: 1170px){
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .titulo-principal {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titulo-principal h2 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: min(4vw, 2rem);
+        letter-spacing: 5px;
+        color: #4a392c;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        line-height: 30px;
+        width: 70vw;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    picture{
+        width: 80%;
+     
+    }
+    picture img {
+        width: 100%;
+        box-shadow: -7px 2px 24px -4px rgb(108, 83, 64, 0.23);
+        
+    }
+}
